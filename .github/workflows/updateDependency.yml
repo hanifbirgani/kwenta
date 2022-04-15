@@ -9,7 +9,7 @@ jobs:
     name: Update contracts-interface version
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@dcd71f646680f2efd8db4afa5ad64fdcba30e748
       - uses: actions/setup-node@v2
         with:
           node-version: '14.17.1'
